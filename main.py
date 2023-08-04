@@ -3,7 +3,7 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "private_outputs": True,
+      "private_outputs": true,
       "provenance": []
     },
     "kernelspec": {
@@ -17,9 +17,31 @@
   "cells": [
     {
       "cell_type": "code",
-      "execution_count": None,
+      "source": [
+        "pip install fastapi"
+      ],
       "metadata": {
-        "id": "aipfl1bGqlHG"
+        "id": "bEhXiuYsA89b"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pip install uvicorn"
+      ],
+      "metadata": {
+        "id": "e8ASgGGwDUFN"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "Ngx0_SIIAOyj"
       },
       "outputs": [],
       "source": [
@@ -28,14 +50,11 @@
         "from sklearn.metrics.pairwise import cosine_similarity\n",
         "from sklearn.metrics.pairwise import linear_kernel\n",
         "import math\n",
-        "\n",
-        "\n",
-        "\n",
-        "from fastapi import FastAPI, Response\n",
+        "from fastapi import FastAPI , Response\n",
         "import uvicorn\n",
         "\n",
         "\n",
-        "app = FastAPI(title = 'Proyecto indi_1',\n",
+        "app = FastAPI(title = 'Proyecto Henry',\n",
         "              description = 'Creación Api',\n",
         "              version = '1.0.1')\n",
         "\n",
@@ -228,21 +247,8 @@
         "\n",
         "   # Devuelvo los títulos de las películas más similares\n",
         "    respuesta_recomendacion = movies_ML['title'].iloc[movie_indices].tolist()\n",
-        "    return respuesta_recomendacion\n",
-        ""
+        "    return respuesta_recomendacion"
       ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "pip install uvicorn"
-        "pip install ASGI"
-      ],
-      "metadata": {
-        "id": "tewrBPHlq2aS"
-      },
-      "execution_count": None,
-      "outputs": []
     }
   ]
 }

@@ -236,6 +236,7 @@
       "cell_type": "code",
       "source": [
         "pip install uvicorn"
+        "pip install ASGI"
       ],
       "metadata": {
         "id": "tewrBPHlq2aS"

@@ -240,7 +240,7 @@
       "metadata": {
         "id": "tewrBPHlq2aS"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     }
   ]

@@ -3,7 +3,7 @@
   "nbformat_minor": 0,
   "metadata": {
     "colab": {
-      "private_outputs": true,
+      "private_outputs": True,
       "provenance": []
     },
     "kernelspec": {
@@ -23,7 +23,7 @@
       "metadata": {
         "id": "bEhXiuYsA89b"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
@@ -34,12 +34,12 @@
       "metadata": {
         "id": "e8ASgGGwDUFN"
       },
-      "execution_count": null,
+      "execution_count": None,
       "outputs": []
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {
         "id": "Ngx0_SIIAOyj"
       },

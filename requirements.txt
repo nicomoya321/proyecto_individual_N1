@@ -91,7 +91,6 @@ python-dateutil==2.8.2
 pytweening==1.0.7
 pytz==2023.3
 pywhatkit==5.4
-pywin32==3.0.6
 pyzmq==25.0.2
 regex==2023.5.5
 requests==2.29.0
